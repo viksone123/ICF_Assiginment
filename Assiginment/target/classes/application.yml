@@ -1,0 +1,26 @@
+server:
+  port: 8020
+  
+spring:
+  jackson:
+    time-zone: America/Toronto
+    
+  jpa:
+    database-platform:
+      org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto:
+#     validate
+      none
+    show-sql:
+      false
+             
+  datasource:
+      url: jdbc:ucanaccess://C:/Users/P7112290/Downloads/assiginment-master/assiginment-master/Assiginment/src/main/resources/myDatabase.accdb
+      driver-class-name: net.ucanaccess.jdbc.UcanaccessDriver
+      test-on-borrow: true
+      test-while-idle: true
+      validation-query: select 1 from dual
+      maximum-pool-size: 25
+      initial-size: 10
+      minimum-idle: 0
+      auto-commit: true
