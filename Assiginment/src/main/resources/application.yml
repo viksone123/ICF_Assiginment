@@ -15,7 +15,7 @@ spring:
       false
              
   datasource:
-      url: jdbc:ucanaccess://C:/Users/P7112290/Downloads/assiginment-master/assiginment-master/Assiginment/src/main/resources/myDatabase.accdb
+      url: jdbc:ucanaccess://C:/Users/VKS/git/repo/Assiginment/src/main/resources/ICF DB.accdb
       driver-class-name: net.ucanaccess.jdbc.UcanaccessDriver
       test-on-borrow: true
       test-while-idle: true
